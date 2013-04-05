@@ -1,2 +1,3 @@
+PREFIX ?= /usr/local/
 all: 
-		stow -vt /usr/local/ -R src/
+		stow -vt $(PREFIX) -R src/
